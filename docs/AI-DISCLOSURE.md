@@ -70,6 +70,14 @@ C'est **le produit lui-même**, pas une aide au développement.
   décisions produit (zéro score global, taxonomie fermée, 3 lectures/médiane, refus
   d'afficher un score instable, cache commité) sont celles de l'auteur, écrites dans le
   cahier des charges avant le code.
+- **Traçabilité des pull requests** : les quelques PR de mise en œuvre (design,
+  documentation) ont été **ouvertes depuis un fork** et apparaissent dans l'onglet
+  « Pull requests » du dépôt, sous le compte du poste qui pilote les agents
+  (`GaiaSG94`). Ce n'est **pas un second membre d'équipe** : c'est le compte machine
+  depuis lequel les agents ont poussé. Le contenu a été relu et validé par l'auteur
+  avant fusion, et **l'intégralité de l'historique des commits est attribuée à
+  `BaptisteFaisy`** (`git shortlog` : 49 commits, un seul auteur). Nous préférons
+  lister cette trace nous-mêmes plutôt que la laisser poser une question.
 
 ## (d) L'agent de résolution de conflits de merge
 
